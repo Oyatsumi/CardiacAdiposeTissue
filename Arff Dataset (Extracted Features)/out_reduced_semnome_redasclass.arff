@@ -1,0 +1,21 @@
+@relation 'regressionFat-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Reorder-R1,3,4,5,6,7,2-weka.filters.unsupervised.attribute.Reorder-R2,3,4,5,6,7,1'
+
+@attribute blueQnt numeric
+@attribute blackQnt numeric
+@attribute greyQnt numeric
+@attribute imageIndex numeric
+@attribute imagesQnt numeric
+@attribute greenQnt numeric
+@attribute redQnt numeric
+
+@data
+801,219440,0,9,39,15125,14506
+828,227933,0,25,39,12660,7429
+678,239062,0,4,36,11756,6804
+968,234369,0,19,43,10561,7474
+413,228332,0,5,43,23418,3357
+1067,233182,0,12,43,8673,10729
+744,220429,0,15,40,11542,15068
+875,199454,0,10,36,45177,11724
+126,222551,0,44,44,24319,6919
+765,224300,0,31,44,23270,9110
