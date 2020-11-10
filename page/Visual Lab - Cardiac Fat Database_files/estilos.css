@@ -1,0 +1,160 @@
+/* CSS Document */
+@charset "utf-8";
+body {background: #C3C3C3 url(../images/background1.png) repeat; font: 13px  Tahoma, Geneva, sans-serif; color: #444; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; }
+img {border: 0px;}
+table {border: 0px;}
+
+a, a:visited {text-decoration: none;color: #C65306;}
+a:hover {text-decoration:underline;}
+h1, h2, h3, h4 {font-family: Tahoma, Geneva, sans-serif; font-weight: Bold; margin: 0; padding: 0; color:#4B4B4B; }
+h1 {font-size: 35px;}
+h3 {font-size: 18px;}
+.localizador a:link, a:visited, a:hover{color: #333;}
+
+#pagina {margin: 0 auto; min-width:980px; max-width: 1200px; background: #ffffff; -webkit-box-shadow:-3px -3px 5px #888; -moz-box-shadow:-3px -3px 5px #888; box-shadow:-3px -3px 5px #888;
+}
+
+#header{min-width:980px; max-width: 1200px; position: relative; height: 101px; background: #ffffff no-repeat center top; padding: 0; font-size: 14px; color: #FFF; background:url(../images/bgheader.jpg) repeat-x; }
+#footer {min-width:980px; max-width: 1200px; clear: both; color: #fff; background-color: #000;height: 65px;text-align: center;}
+#footer p{color: #fff; margin:0; padding:10px 0 0 0px;}
+#footer p a{color: #fff;}
+#footer p a:hover{color: #CCC; text-decoration:underline;}
+
+
+#lateral {display:block; width:18%; padding: 10px 5px 0 5px;  float:left;height: auto;}
+#contenido { display:block; float:left; width: 78%; padding: 10px 5px 10px 0px; font-size:16px; overflow: hidden;}
+#contenido  h3{font:24px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+#contenidoadmin {width: 960px; padding: 10px 20px 10px 0px; margin: 0 auto; font-size:14px; min-height: 400px;}
+#contenidoadmin h3{font:24px Arial, Helvetica, sans-serif;}
+
+/* TopMenu */
+#topmenu {font: bold 16px Helvetica, Arial, tahoma, Sans-serif; text-transform:uppercase; padding:0;margin: 0;
+    position:relative; height: 42px;  z-index: 10; background: url(../images/menu-secondary-bg.png) left top repeat-x;  padding-left: 10px;
+-webkit-box-shadow:0px 3px 3px #888; -moz-box-shadow:1px 1px 3px #888; box-shadow:1px 1px 3px #888;}
+#topmenu ul {float: left;	list-style: none; margin:0; padding:0 0 0 0;}
+#topmenu ul li {display: inline;}
+#topmenu ul li a {height: 20px; float: left; padding: 11px 14px; color: #fff; text-decoration: none; }
+#topmenu ul li a:hover {background-color: #C65306;}
+#topmenu ul li a.current{background-color: #C65306;}
+
+#menutitulo {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 16px;font-weight:
+bold;color: #FFFFFF; background: url(../images/bg-titulo.png) repeat-x;
+height: 23px; max-width: 190px; text-transform: capitalize; padding: 6px 0 0 10px; margin: 0 0 0 4px ; -webkit-box-shadow:1px 1px 3px #888; -moz-box-shadow:1px 1px 3px #888; box-shadow:1px 1px 3px #888;}
+
+
+#titulosh3 {font-family: Arial;font-size: 14px;font-weight: bold;color: #FFF;text-decoration: none;height: 18px;width: 743px;text-transform: none;padding: 2px 0 0 10px; margin: 0; background-color:#333;}
+
+#lateral .left-box {border: 1px solid #F7BE81; margin: 0 0 5px 0;}
+
+.cols {display:block; float:left; width:205px; margin:0 10px;}
+.cols:hover {background-color:#F7F7F7;width:205px;margin:0 10px}
+
+
+
+#lateral ul.menulat {list-style: none; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif ;font-size: 16px; color:#003; margin: 3px 0 8px 0; padding: 0;}
+#lateral ul.menulat li {border-bottom: 1px solid #F7BE81;min-height: 22px; max-width: 190px; padding: 4px 0 0 5px; margin: 0 0 0 5px; display: block;}
+#lateral ul.menulat a {text-decoration: none;color:#373737}
+#lateral ul.menulat a:hover{color: #C65306}
+
+
+#menu{ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-box-shadow:1px 1px 3px #888;
+	-moz-box-shadow:1px 1px 3px #888;
+	box-shadow:1px 1px 3px #888;
+	margin:0 0 0 5px;
+	max-width:190px;
+	list-style:none;
+	padding-right:7px;
+}
+#menu li{border-bottom: 1px solid #F7BE81; padding: 5px 0 3px 5px; margin: 0 0 0 5px; }
+#menu ul li, #menu li:last-child{border:none; }	
+#menu a{
+	display:block;
+	color:#000;
+	text-decoration:none;
+	font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	
+	text-decoration: none;
+	color:#373737;
+	padding:2px 5px 3px 10px;
+    background: url(../images/morelinks_active.png) no-repeat; background-position:center;  background-position: -5px ;
+}
+#menu a:hover{color:#C65306;-webkit-transition: color 0.2s linear; }
+#menu ul{background-color:#FFC;}
+#menu ul li{border-bottom:1px solid #F7BE81}
+#menu ul a:hover{color:#C65306;	text-shadow:none; -webkit-transition: color, background-color 0.2s linear;
+}
+#menu li ul {display:none;margin-left:-3px;}
+
+ul{list-style: none; padding: 0; margin: 0;}
+#nav {float: left; width: 280px; border-top: 1px solid #999; border-right: 1px solid #999; border-left: 1px solid #999; margin: 15px 0;}
+#nav li a {display: block; padding: 10px 15px; background: #ccc; border-top: 1px solid #eee; border-bottom: 1px solid #999; text-decoration: none; color: #000;}
+#nav li a:hover, #nav li a.active {background: #999; color: #fff;}
+#nav li ul {display: none;}
+#nav li ul li a {padding: 10px 25px; background: #ececec; border-bottom: 1px dotted #ccc;}
+
+.referencia{background-color:#FFC ; border:1px dashed #C65306; font-size: 12px ; margin: -10px 0 10px 0; padding:5px; }
+
+table, th, td {	border: 1px solid #F7BE81;	border-collapse: collapse;	color: #555;}
+td, th {padding: 0px;}
+thead th {text-align: center;background: #C65306;color: #fff;font-size: 90% !important;}
+tbody th {font-weight: bold;}
+tbody tr { background: #ffe; font-size:13px; }
+tbody tr.odd { background: #fff; }
+table a:link {color: #000;text-decoration: none; }
+table a:visited {color: #333;text-decoration: underline;}
+table a:hover {color: #333;	text-decoration: underline !important;}
+tfoot th, tfoot td {font-size: 85%;}
+
+.tabela th, .tabela td{padding:2px 4px; }
+.tabla, .tabla td{padding:2px 4px; border:0px; background-color:#FFF}
+
+#monit_software a, #monit_artigo a, #monit_artigo1 a, #monit_artigo2 a, #monit_artigo3 a, #monit_artigo4 a, #monit_artigo5 a{cursor:pointer;}
+
+.paginado{text-align:center; padding-bottom:15px;}
+.paginado a, .paginado a:visited{ background-color:#ffe;padding:4px; margin:0; border:1px solid #F7BE81 }
+.paginado span.current{color:#FFF;background-color:#C65306;padding:4px; margin:0; border:1px solid #F7BE81;font-weight:bold; }
+
+
+/*.membros{overflow:hidden; width:98%; padding:5px; background-color:#fbfbfb; border:1px solid #CCC; margin:2px 5px; 0 2px; float:left; text-align:left; }
+.membros .titulo {font-size:18px; margin: 27px 0 4px 0; }
+.membros p{margin: 4px 0; }
+.membros .titulo2{font-size:18px; margin: 15px 0 4px 0; }
+.membros .imagen{float:left; width:80px; }
+.membros .descripcion{float:right; width:89%;}*/
+
+
+
+.membros{overflow:hidden; width:47%; padding:5px; background-color:#fbfbfb; border:1px solid #CCC; margin:5px ;  text-align:left; float:left; height: 90px;}
+.membros p {margin: 0 0 4px 0 ; }
+.membros .imagen{float:left; width:90px; }
+.membros .imagen img{height:90px;  width:80px; }
+.membros.descripcion{float:right; width:85%;}
+.membros .descripcion .titulo {font-size: 18px; margin-top: 20px; }
+.membros .descripcion .titulo2 {font-size: 18px; }
+.membros .descripcion .detalle {font-size: 14px; }
+
+.publicacao{overflow:hidden; width:98%; padding:5px; margin-bottom: 15px; }
+.publicacao .ano{float:left; width:20px;}
+.publicacao .descripcion{float:right; width:94%;}
+.publicacao .descripcion span{color: #999;  font-style: italic;}
+
+.pesquisas{overflow:hidden; width:98%; padding:5px; background-color:#fbfbfb; border:1px solid #CCC; margin:10px 5px; 0 2px; float:left; text-align:left; }
+.pesquisas p.titulo {font-size:18px; margin: 0; }
+.pesquisas p a {text-decoration: none;color: #C65306; }
+.pesquisas p a:hover {text-decoration: underline;}
+
+.textbox{padding:5px; }
+.boton{padding:5px; margin:5px 0 0 5px; font-weight:bold; }
+
+#registro{width:750px; padding:10px; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; border: 1px solid #a6c9e2; background: #fcfdfd url(images/ui-bg_inset-hard_100_fcfdfd_1x100.png) 50% bottom repeat-x; }
+
+#listapub{background-color: #ffd}
+#listapub td{font-size: 14px ; padding: 4px}
+#contentadmin{min-height: 400px;}
+
+.creditos{margin-top:10px !important; text-align: center;}
+.creditos a{text-align: center; color: #666 !important; font-size: 14px; }
+.table-download{margin-left:auto;  margin-right:auto;}
+.table-download tr td{text-align: center; font-size: 16px; padding: 5px;}

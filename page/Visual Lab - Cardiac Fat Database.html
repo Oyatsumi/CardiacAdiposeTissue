@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0049)http://visual.ic.uff.br/en/cardio/ctfat/index.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, embed[type="application/pdf"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: #181a1b;
+   --darkreader-neutral-text: #e8e6e3;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}</style><style class="darkreader darkreader--user-agent" media="screen">html {
+    background-color: #181a1b !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
+}
+html, body, input, textarea, select, button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #555b00 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+* {
+    scrollbar-color: #202324 #454a4d;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}</style>
+<!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
+
+<title>Visual Lab - Cardiac Fat Database</title>
+<meta name="description" content="This database consists of approximately 1000 images of human hearts with their respective epicardial and mediastinal fats segmented.">
+<meta name="keywords" content="análise de imagens, imagens cardiologia, imagens medicas, banco de dados, Micrografia">
+<!--<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">-->
+<link href="./Visual Lab - Cardiac Fat Database_files/estilos.css" type="text/css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+<meta http-equiv="Content-Language" content="en">
+<script type="text/javascript" async="" src="./Visual Lab - Cardiac Fat Database_files/ga.js.download"></script><script src="./Visual Lab - Cardiac Fat Database_files/jquery-1.2.6.min.js.download" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="./Visual Lab - Cardiac Fat Database_files/jquery.cookie.js.download"></script>
+
+<link rel="shortcut icon" href="http://visual.ic.uff.br/images/favicon.ico">
+<script type="text/javascript" src="./Visual Lab - Cardiac Fat Database_files/jquery.hoverIntent.minified.js.download"></script>
+<script type="text/javascript" src="./Visual Lab - Cardiac Fat Database_files/jquery.dcmegamenu.1.2.js.download"></script><meta name="darkreader" content="d8e4b2cc99bcb2259a208209b26b38e9"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}</style>
+
+
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function () {
+  var checkCookie = $.cookie("nav-item");
+  if (checkCookie != "") {
+     $('#menu > li > a:eq('+checkCookie+')').addClass('active').next().show();
+  }
+  $('#menu > li > a').click(function(){
+    var navIndex = $('#menu > li > a').index(this);
+    $.cookie("nav-item", navIndex);
+    $('#menu li ul').slideUp();
+    if ($(this).next().is(":visible"))
+    {
+      $(this).next().slideUp();
+    } 
+    else 
+    {
+      $(this).next().slideToggle();
+    }
+    $('#menu li a').removeClass('active');
+    $(this).addClass('active');
+  });
+
+  $('#menu > li > ul > li a').click(function(){
+    //var navIndex = $('#menu > li >ul > li > a').index(this);
+    //var navIndex = $('#menu > ul > li > a').index(this);
+    //$.cookie("nav-item", navIndex);
+    $('#menu li ul li ul').slideUp();
+    if($(this).next().is(":visible"))
+    {
+        $(this).next().slideUp();
+    } 
+    else 
+    {
+      $(this).next().slideToggle();
+    }
+    $('#menu li ul li a').removeClass('active');
+    $(this).addClass('active');
+  });
+
+
+    $('#mega-menu-tut').dcMegaMenu({
+    rowItems: '3',
+    speed: 'fast'
+  });
+
+});
+</script>
+
+<script type="text/javascript">
+function switchMenu(elemento) {
+        // vars
+        var subcat_name = document.getElementById("subcat_" + elemento);
+        var subcat_monit = document.getElementById( "monit_" + elemento);
+        // ---
+        if(subcat_name.style.display == 'none')         
+                subcat_name.style.display = 'block';
+        else
+                subcat_name.style.display = 'none';     
+}
+</script>
+
+<script type="text/javascript" src="./Visual Lab - Cardiac Fat Database_files/jquery.lightbox-0.5.min.js.download"></script>
+<link rel="stylesheet" type="text/css" href="./Visual Lab - Cardiac Fat Database_files/jquery.lightbox-0.5.css" media="screen"><style class="darkreader darkreader--sync" media="screen"></style>
+<script type="text/javascript">
+$(function() {
+	// Use this example, or...
+	$('a[@rel*=lightbox]').lightBox(); // Select all links that contains lightbox in the attribute rel
+	// This, or...
+	$('#gallery a').lightBox(); // Select all links in object with gallery ID
+	// This, or...
+	$('a.lightbox').lightBox(); // Select all links with lightbox class
+	// This, or...
+	//$('a').lightBox(); // Select all links in the page
+	// ... The possibility are many. Use your creative or choose one in the examples above
+});
+</script>  
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24274781-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+
+<body>
+<div id="pagina">
+  <div id="header">
+<p align="right" style="color: rgb(0, 0, 0); padding-right: 10px; padding-top: 10px; --darkreader-inline-color:#e8e6e3;" data-darkreader-inline-color="">
+
+
+<a href="http://visual.ic.uff.br/en/cardio"><img src="./Visual Lab - Cardiac Fat Database_files/ingles.jpg"></a>
+<a href="http://visual.ic.uff.br/cardio"><img src="./Visual Lab - Cardiac Fat Database_files/portugues.jpg"></a>
+
+
+</p>
+    
+<div style="margin:-13px 0 0 33px;"><a href="http://visual.ic.uff.br/en"><img src="./Visual Lab - Cardiac Fat Database_files/logo.png"></a></div>    
+    
+</div><!--End header-->
+<div id="topmenu">
+  <ul>
+    <li><a href="http://visual.ic.uff.br/en/">Home</a></li>
+    <li><a href="http://visual.ic.uff.br/en/researches.php" class="current">Researches</a></li>
+    <li><a href="http://visual.ic.uff.br/en/publications.php">Publications</a></li>
+    <li><a href="http://visual.ic.uff.br/en/members.php">Members</a></li>
+    <li><a href="http://visual.ic.uff.br/en/contato.php">Contact</a></li>
+ </ul>
+</div>
+
+    <div id="lateral">
+    
+	
+<h4 id="menutitulo">Cardio</h4>
+<ul id="menu">
+<li><a href="http://visual.ic.uff.br/en/cardio/index.php">Projects</a></li>
+<li><a href="http://visual.ic.uff.br/en/cardio/ctfat/index.php#">Fat Segmentation</a>
+	<ul>
+		<li><a href="http://visual.ic.uff.br/en/cardio/ctfat/">Database Acquisition</a></li>
+	</ul>
+</li>
+<li><a href="http://visual.ic.uff.br/en/cardio/ctfat/index.php#">Micrographic Database</a>
+	<ul>
+		<li><a href="http://visual.ic.uff.br/en/cardio/micrographic/database.php">Download database</a></li>
+	</ul>
+</li>
+
+</ul>
+
+<br>
+
+
+
+
+
+<h4 id="menutitulo">Sites of Interest</h4>
+<ul class="menulat">
+    <li><a href="http://www.ic.uff.br/" target="_blank">Instituto de computação</a></li>
+    <li><a href="http://www.capes.gov.br/" target="_blank">CAPES</a></li>
+</ul>
+<br>
+<br>
+
+<div align="center">
+<a href="http://www.visual.ic.uff.br/en/proeng"><img src="./Visual Lab - Cardiac Fat Database_files/proeng.jpg"></a><br>
+<a href="http://www.uff.br/"><img src="./Visual Lab - Cardiac Fat Database_files/uff.jpg"></a><br><br>
+<a href="http://www.ic.uff.br/"><img src="./Visual Lab - Cardiac Fat Database_files/logoic.jpg"></a><br><br>
+</div>
+<br>
+<br>    </div>
+   <div id="contenido">
+   <div class="localizador" style="background: rgb(247, 247, 247); padding-top: 2px; padding-bottom: 2px; color: rgb(51, 51, 51); --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:#1d1f20; --darkreader-inline-color:#c8c3bc;" data-darkreader-inline-bgimage="" data-darkreader-inline-bgcolor="" data-darkreader-inline-color="">
+&nbsp;<a href="http://visual.ic.uff.br/en" class="localizador">Visual Lab</a>
+
+»&nbsp;<a href="http://visual.ic.uff.br/en/cardio" class="localizador"><b>Cardio</b></a>
+»&nbsp;<a href="http://visual.ic.uff.br/en/cardio/ctfat/index.php" class="localizador"><b>Cardiac Fat Database</b></a></div>
+<br>
+<h1>Cardiac Fat Database - Computed Tomography</h1>
+<br>
+
+
+<p>
+The amount of fat on the surroundings of the heart
+is correlated to several health risk factors such as carotid stiffness,
+coronary artery calcification, atrial fibrillation, atherosclerosis,
+cancer incidence and others.
+</p>
+<p>The images provided here were manually segmented by a physicist and a computer scientist and they consist of a segmentation of the epicardial and mediastinal fats on non-contrasted
+cardiac CT scans. The red color represents the epicardial fat, the green color represents the mediastinal fat and the blue color represents the gap between the
+epicardial and mediastinal fats, which can also be interpreted as the pericardium.</p>
+<p>
+Further details on the database can be found at the bottom of the page.
+</p>
+
+<h2>Database Download (Weka)</h2>
+<br>
+<table width="500" class="table-download">
+<thead>
+  <tr>
+    <th colspan="2" scope="col">Weka Database</th>
+  </tr>
+
+
+<tr>
+<td width="250"><a target="blank" href="http://www.mediafire.com/download/vqc1an999k92c21/12_6_2_2_1_maismemoria.zip"><img src="./Visual Lab - Cardiac Fat Database_files/weka.png"><br>Download Weka Database</a></td>
+<td width="250"><a target="blank" href="http://www.mediafire.com/download/936pqjivlzpmcuc/12_5_1_1_1_features_reduzidas.zip"><img src="./Visual Lab - Cardiac Fat Database_files/weka.png"><br>Download Weka Database (Reduced Features - Faster)</a></td>
+
+</tr>
+
+  
+
+</thead></table>
+<p>
+<strong>Details:</strong> <br>
+This database is composed of features extracted from the 20 patients that compose the database available below.
+We have extracted as features: the pixel grey level, a Gaussian weighted vicinity, the position x, y and z, where z is the index of the slice. Moreover, we have also selected the x and y positions relative to the center of gravity of the image and texture-based features from a neighborhood of variable size that encapsulates the iterated pixel at its center, i.e., a surrounding window of pixel values. 
+Some features were extracted from this area, such as: (1) a simple arithmetic mean of the grey levels, (2) moments of the co-occurrence matrix, (3) moments of the grey values, (4) run percentage, (5) grey level non-uniformity and (6) a Gaussian-weighted mean of the grey values.
+</p>
+
+
+<br>
+<h2>Database Download (Images)</h2>
+<br>
+
+<table width="800" class="table-download">
+<thead>
+  <tr>
+    <th colspan="5" scope="col">Patients (20 scans - approximately 1000 images)</th>
+  </tr>
+  <tr>
+    <th scope="col">[1] Fat Images</th>
+    <th scope="col">[2] Ground Truth</th>
+    <th scope="col">[3] Ground Truth</th>
+	<th scope="col">[4] Ground Truth</th>
+  <th scope="col">[5] DICOM Files</th>
+  </tr>
+	</thead>
+ <tbody>
+ 
+
+<tr>
+<td width="200"><a href="http://visual.ic.uff.br/en/cardio/ctfat/download/FatImages.zip"><img src="./Visual Lab - Cardiac Fat Database_files/1.png"><br>Download Fat Images</a></td>
+<td width="200"><a href="http://visual.ic.uff.br/en/cardio/ctfat/download/GroundTruth-FatRange.zip"><img src="./Visual Lab - Cardiac Fat Database_files/2.png"><br>Download Ground Truth (Fat Range[-200,-30])</a></td>
+<td width="200"><a href="http://visual.ic.uff.br/en/cardio/ctfat/download/GroundTruth-HigherRange.zip"><img src="./Visual Lab - Cardiac Fat Database_files/3.png"><br>Download Ground Truth - (Higher Range [-200,500])</a></td>
+<td width="200"><a href="http://visual.ic.uff.br/en/cardio/ctfat/download/GroundTruth-CombinedRange.zip"><img src="./Visual Lab - Cardiac Fat Database_files/4.png"><br>Download Ground Truth - (Combined [-200,-30] and [-200,500])</a></td>
+<td width="200"><a href="http://www.mediafire.com/download/352xdgzajhvbsfa/Dicom-Originals.zip"><img src="./Visual Lab - Cardiac Fat Database_files/1.png"><br>Download DICOM Files of the Ground Truth</a></td>
+
+</tr>
+
+  </tbody>
+
+</table>
+<p>
+<strong>Details:</strong> <br>
+[1] These images were linearly converted from [-200,-30] HU to 8-bit depth images.<br>
+[2] These are the [1] after a manual segmentation.<br>
+[3] These are the manual segmentation on the range [-200,500].<br>
+[4] These images are a combination of the images of [2] (segmented part) and [3] (rest of the image).<br>
+The absolute black (0) represents the background and should not be accounted as a fat pixel.
+</p>
+
+<p>
+  </p><h2>
+  <b>Attention!</b><br>
+</h2>
+You can use the images of the Ground Truth as you want as long as you reference our published work:<br>
+<br>
+<i>RODRIGUES, É.O.; MORAIS, F.F.C.; MORAIS, N.A.O.S.; CONCI, L.S.; NETO, L.V.; CONCI, A.; A novel approach for the automated segmentation and volume quantification of cardiac fats on computed tomography. Computer Methods and Programs in Biomedicine (Print), v. 123, p. 109-128, 2015.
+</i>
+<p></p>
+
+  </div><!--End contenido-->
+  <div id="footer">
+
+    <p>
+	<a href="http://www.uff.br/" target="_blank">UFF</a>&nbsp;|&nbsp; 
+	<a href="http://www.ic.uff.br/" target="_blank">IC</a>&nbsp;|&nbsp; 
+	<a href="http://gavab.escet.urjc.es/" target="_blank">URJC</a>&nbsp;|&nbsp; 
+	<a href="http://www.ufma.br/" target="_blank">UFMA</a>&nbsp;|&nbsp; 
+  	<a href="http://www.ufpe.br/" target="_blank">UFPE</a>&nbsp;|&nbsp; 
+	<a href="http://www.addlabs.uff.br/" target="_blank">ADD Labs</a>
+    </p>
+     <p align="center">Visual Lab - 2020</p>
+     <p class="creditos"><a href="mailto:giomaroliver5@gmail.com">Developed by Giomar Sequeiros</a></p>
+  </div><!-- End footer-->
+
+</div><!--End pagina-->
+   
+    
+
+
+
+ </body></html>
